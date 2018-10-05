@@ -24,13 +24,16 @@ p{
 header{
     top:0%;
     max-width: 100%;
-    
+    width: 100%;
+    position: fixed;
+    margin-bottom: 50px;
 }
 
 nav{
     max-width:100%;
     width: 100%;
     border-bottom: 2px solid turquoise;
+    
 }
 nav a{
     padding: 25px;
@@ -60,6 +63,9 @@ nav a{
     color: purple;
 }
 
+button{
+    font-family:"Source Sans Pro", sans-serif;
+}
 
 #button{
     padding: 1%;
@@ -75,7 +81,7 @@ nav a{
 }
 #main {
     width: 100%;
-    
+/*    */
 }
 
 .row {
@@ -105,6 +111,11 @@ nav a{
     
     
 }
+.nav-home {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
 
 .nav-home ul {
     list-style-type: none;
@@ -114,10 +125,6 @@ nav a{
 
 .nav-home ul>li{
     display: inline;
-}
-
-.nav-home a {
-    float: right;
 }
 
 
@@ -158,9 +165,10 @@ nav a{
     height: 30px;
     border: 1px solid purple;
     border-radius: 6px;
-    margin: 10px;
+    margin: 20px;
     margin-left: 40px;
     display: inline-block;
+    text-align: center;
 }
 
 .color-morning {
@@ -184,7 +192,8 @@ nav a{
     margin: 0 auto;
     padding-left: 15px;
     padding-right: 15px;
-    display: inline-block
+    display: inline-block;
+ 
 }
 
 .first-row {
@@ -195,16 +204,66 @@ nav a{
     padding: 15px;
     margin-left: 30px;
     border-radius: 6px;
-    background-color: aquamarine;
+    background-color: aqua;
     box-shadow: 0px 1px 0 1px turquoise;
 }
 
 .nav-home {
     border-bottom: none;
+    background-color: none;
 }
 
 .info-button {
     background-color: aquamarine;
     font-size: 12px;
     border-radius: 6px;
+    width:130px;
+}
+
+.product {
+    width: 250px;
+    float: left;
+    padding: 10px;
+}
+
+.product-bed {
+    width:400px;
+    padding: 10px;
+    max-width: 100%;
+}
+
+.column-left {
+    float:left;
+}
+
+.cart-button {
+    padding: 15px;
+    width: 350px;
+    border-radius: 6px;
+    background-color: aquamarine;
+    box-shadow: 0px 1px 0 1px turquoise;
+    font-size: 18px;
+
+}
+
+.header-home {
+    background-color: none;
+}
+
+.product-round {
+    width:400px;
+    padding: 10px;
+    max-width: 100%;
+}
+
+.product-couch {
+    width:400px;
+    padding: 10px;
+    max-width: 100%;
+}
+
+.product-pouf {
+    width:400px;
+    padding: 10px;
+    max-width: 100%;
 }
