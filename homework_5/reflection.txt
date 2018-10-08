@@ -1,3 +1,5 @@
 1. A number of challenges I ran into all seemed to relate to the positioning of elements on my page. I specifically had a number of problems related to my nav bar because I wanted to separate some elements to the left and another set to the right. Ultimately, Katelyn Duncan, a SSUI student, helped teach me the fundamentals of flexbox and how I can use it to position elements within divs. 
 
 2. Like my prototypes, I aimed for a minimalist yet comfortable aesthetic. I didn't want to clutter the website because I felt like a clean, simplistic look should match the clean uniformity of made bed with silky sheets. However, when I didn't use white or black, I tried to use soft, relaxing colors like teal and light blue because I wanted to create a relaxing atmosphere that I figured most users would want when lying in bed. 
+
+Images were obtained from unsplash.com, target.com, and westelm.com.
