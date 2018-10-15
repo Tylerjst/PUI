@@ -27,12 +27,14 @@ header{
     width: 100%;
     position: fixed;
     margin-bottom: 50px;
+    background-color: white;
 }
 
 nav{
     max-width:100%;
     width: 100%;
     border-bottom: 2px solid turquoise;
+    background-color: white;
     
 }
 nav a{
@@ -115,6 +117,8 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
+    border-bottom: none;
+    background-color: none;
 }
 
 .nav-home ul {
@@ -208,10 +212,7 @@ button{
     box-shadow: 0px 1px 0 1px turquoise;
 }
 
-.nav-home {
-    border-bottom: none;
-    background-color: none;
-}
+
 
 .info-button {
     background-color: aquamarine;
@@ -266,4 +267,88 @@ button{
     width:400px;
     padding: 10px;
     max-width: 100%;
+}
+
+.active-color{
+    border: 2px solid white;
+    box-shadow: 0px 0px 0px 3px #3BECEA;
+}
+
+.active-button-color{
+    border: 2px solid white;
+    box-shadow: 0px 0px 0px 3px #3BECEA;
+}
+
+.color-box:hover {
+    border: 2px solid white;
+    box-shadow: 0px 0px 0px 3px #3BECEA;
+}
+
+.cart-menu {
+    position: fixed;
+    height:100%;
+    width: 0%;
+    padding-top: 50px;
+/*    padding-left: 10px;*/
+/*    border-left: 1px solid #89FDD6;*/
+    right: 0;
+    top: 0;
+    -webkit-backdrop-filter: grayscale(1) blur(4px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(245, 245, 245, 0.5);
+    box-shadow: inset 1px -8px 20px 0px #3BECEA;
+    
+}
+
+
+
+.exit {
+    width:15px;
+    height:15px;
+}
+
+.inner-cart {
+    margin-left: 20px;
+    
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.confirm {
+    width: 45%;
+    height: 35%;
+    top: 50%;
+    left: 50%;
+    margin-left: -17%;
+    margin-top: -14%;
+    right: 25%;
+    position:fixed;
+    z-index: 2;
+    border-radius: 10px;
+    -webkit-backdrop-filter: grayscale(1) blur(25px);
+    backdrop-filter: blur(25px);
+    background-color: rgba(245, 245, 2245, 0.5);
+
+    
+}
+
+.inner-confirm {
+    display: block;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.remove-product {
+    width:10px;
+    height:10px;
+}
+
+.cart-list {
+    list-style: none;
+}
+
+.cart-list>p {
+    display: inline;
 }
