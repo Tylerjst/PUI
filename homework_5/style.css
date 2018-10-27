@@ -8,7 +8,7 @@ a{
     font-family:"Source Sans Pro", sans-serif;
 }
 
-h1, h2{
+h1, h2, h3{
     font-family: "Source Sans Pro", sans-serif;
 }
 
@@ -27,14 +27,14 @@ header{
     width: 100%;
     position: fixed;
     margin-bottom: 50px;
-    background-color: white;
+    
 }
 
 nav{
     max-width:100%;
     width: 100%;
     border-bottom: 2px solid turquoise;
-    background-color: white;
+    
     
 }
 nav a{
@@ -81,6 +81,15 @@ button{
     border-radius: 6px;
   
 }
+
+.treat-button{
+    padding: 15px;
+    margin-left: 30px;
+    border-radius: 6px;
+    background-color: aqua;
+    box-shadow: 0px 1px 0 1px turquoise;
+}
+
 #main {
     width: 100%;
 /*    */
@@ -92,6 +101,7 @@ button{
     margin-left: 40px;
     margin-right: 40px;
     max-width: 100%;
+    
 }
 
 
@@ -228,9 +238,7 @@ button{
 }
 
 .product-bed {
-    width:400px;
-    padding: 10px;
-    max-width: 100%;
+   
 }
 
 .column-left {
@@ -252,21 +260,15 @@ button{
 }
 
 .product-round {
-    width:400px;
-    padding: 10px;
-    max-width: 100%;
+  
 }
 
 .product-couch {
-    width:400px;
-    padding: 10px;
-    max-width: 100%;
+    
 }
 
 .product-pouf {
-    width:400px;
-    padding: 10px;
-    max-width: 100%;
+
 }
 
 .active-color{
@@ -289,6 +291,7 @@ button{
     height:100%;
     width: 0%;
     padding-top: 50px;
+    padding-bottom: 50px;
 /*    padding-left: 10px;*/
 /*    border-left: 1px solid #89FDD6;*/
     right: 0;
@@ -297,6 +300,8 @@ button{
     backdrop-filter: blur(10px);
     background-color: rgba(245, 245, 245, 0.5);
     box-shadow: inset 1px -8px 20px 0px #3BECEA;
+    overflow-y: scroll;
+    overflow-x: hidden;
     
 }
 
@@ -305,11 +310,13 @@ button{
 .exit {
     width:15px;
     height:15px;
+    
 }
 
 .inner-cart {
     margin-left: 20px;
-    
+    margin-bottom: 100px;
+    overflow-y: scroll;
 }
 
 .hidden {
@@ -347,8 +354,37 @@ button{
 
 .cart-list {
     list-style: none;
+    display: inline-block;
 }
 
 .cart-list>p {
     display: inline;
+}
+
+.web-page {
+    background-color: white;
+}
+
+.web-page-header {
+    background-color: white;
+}
+
+.checkout-button {
+    padding: 15px;
+    width: 230px;
+    border-radius: 6px;
+    background-color: aquamarine;
+    box-shadow: 0px 1px 0 1px turquoise;
+    font-size: 18px;
+}
+
+.product-img {
+    width:400px;
+    padding: 10px;
+    max-width: 100%;
+}
+
+.exit-cart {
+    width:15px;
+    height:15px;
 }

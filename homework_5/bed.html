@@ -12,8 +12,8 @@
 
 
 <body>
-	<header>
-		<nav>
+	<header class = "web-page-header">
+		<nav class = "web-page-nav">
             <ul class = "nav-ul">
                 
                 <div class = "nav-left">
@@ -42,17 +42,19 @@
 		</nav>
 	</header>
 
-	<div id = "main">
+	<div id = "main" class = "product-bed">
         <div class = "row first-row">
             <div class = "column column-left">
-                <img class ="product-bed product-img" src="images/bed-denim.jpg">
+                <div class = "product-img-container">
+                        <img class ="product-img" src="images/bed-denim.jpg">
+                </div>
                 <p>Specs:</p>
                 <p>Size: 11" x 11"</p>
                 <p></p>
             </div>
             
             <div class = "column-large">
-                <h1>Bed Pillow</h1>
+                <h1 >Bed Pillow</h1>
                 <p>This is a bed pillow.</p>
             </div>
         
@@ -98,12 +100,15 @@
         </div>
         <div class = "cart-menu hidden">
             <div class = "inner-cart">
-                <img class = "exit" src="images/cross-out.png">
+                <img class = "exit-cart" src="images/cross-out.png">
                 <h2>Your Cart</h2>
                 <hr>
                 <div class = "">
                     <ul class = "cart-list">
                     </ul>
+                    <hr>
+                    <h3>Subtotal:<div class = "subtotal"></div></h3>
+                    <button class = "checkout-button">Checkout</button>
                 </div>
             </div>
         
@@ -118,7 +123,7 @@
 </body>
 <div class = "confirm hidden">
     <div class = "inner-confirm">
-        
+        <img class = "exit" src="images/cross-out.png">
         <p id = "logo">FLUFF YEAH</p>
         <h1 >Added to Cart!</h1>
         <div class = "row">

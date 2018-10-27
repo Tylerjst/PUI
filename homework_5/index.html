@@ -21,8 +21,8 @@
                 <li>
                     <a href = "">Contact</a>
                 </li>
-                <li>
-                    <a href = "">Cart</a>
+                <li class = "cart-nav">
+                         <a>Cart (<span class ="cart-number"></span>)</a>
                 </li>
             </ul>
 		</nav>
@@ -44,6 +44,22 @@
         </div>
         
 	</div>
+    
+    <div class = "cart-menu hidden">
+            <div class = "inner-cart">
+                <img class = "exit-cart" src="images/cross-out.png">
+                <h2>Your Cart</h2>
+                <hr>
+                <div class = "">
+                    <ul class = "cart-list">
+                    </ul>
+                    <hr>
+                    <h3>Subtotal:<div class = "subtotal"></div></h3>
+                    <button class = "checkout-button">Checkout</button>
+                </div>
+            </div>
+        
+    </div>
 </body>
 
 </html>

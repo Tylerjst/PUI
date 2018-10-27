@@ -1,0 +1,18 @@
+
+.main-image {
+    width: 40%;
+    height: 40%;
+    
+}
+
+.jumbotron {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
