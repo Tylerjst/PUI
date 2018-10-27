@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Fluff Stuff</title>
+	<meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src = "main.js" type ="text/javascript"></script>
+</head>
+
+
+<body>
+	<header class = "web-page-header">
+		<nav class = "web-page-nav"> 
+            <ul class = "nav-ul">
+                
+                <div class = "nav-left">
+                    <li>
+                        <a id="logo" href = "index.html">Fluff Stuff</a>
+                    </li>
+                    <li>
+                        <a href = "products.html">Products</a>
+                    </li>
+                
+                </div>
+                <div class = "nav-right">
+                    <li>
+                       <a href = "">About</a>
+                    </li>
+                    <li>
+                        <a href = "">Contact</a>
+                    </li>
+                    <li>
+                         <a class = "cart-nav">Cart (<span class = "cart-number"></span>)</a>
+                    </li>
+                </div>
+            </ul>
+		</nav>
+	
+    </header>
+	<div id = "main">
+        <div class = "row first-row">
+            <div class = "tile tile-bed-pillow">
+                <img class = "product" src = "images/bed-denim.jpg">
+                <h2>Bed Pillow</h2>
+                <p>This is a bed pillow</p>
+                <a href = "bed.html">
+                    <button class = "info-button">
+                        <p>More Info</p>
+                    </button>
+                </a> 
+            </div>
+            <div class = "tile tile-round-pillow">
+                <img class = "product" src ="images/round.jpeg">
+                <h2>Round Pillow</h2>
+                <p>This is a round pillow</p>
+                <a href = "round.html">
+                    <button class = "info-button">
+                        <p>More Info</p>
+                    </button>
+                </a>   
+            </div>
+        </div>
+        <div class = "row">
+            <div class = "tile tile-couch-pillow">
+                <img class = "product" src ="images/couch.jpeg">
+                <h2>Couch Pillow</h2>
+                <p>This is a couch pillow</p>
+                <a href = "couch.html">
+                    <button class = "info-button">
+                        <p>More Info</p>
+                    </button>
+                </a> 
+
+            </div>
+            <div class = "tile tile-pouf-pillow">
+                <img class ="product" src ="images/pouf.jpg">
+                <h2>Pouf Pillow</h2>
+                <p>This is a pouf pillow</p>
+                <a href = "pouf.html">
+                    <button class = "info-button">
+                        <p>More Info</p>
+                    </button>
+                </a> 
+
+            </div>
+        </div>
+        <div class = "cart-menu hidden">
+            <div class = "inner-cart">
+                <img class = "exit-cart" src="images/cross-out.png">
+                <h2>Your Cart</h2>
+                <hr>
+                <div class = "">
+                    <ul class = "cart-list">
+                    </ul>
+                    <hr>
+                    <h3>Subtotal:<div class = "subtotal"></div></h3>
+                    <button class = "checkout-button">Checkout</button>
+                </div>
+            </div>
+        
+        </div>
+    
+    </div>
+    
+    
+</body>
+
+</html>
+
