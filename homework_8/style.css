@@ -1,0 +1,321 @@
+html{
+    background-color: white;
+    font-family: 'Din Alternate', 'Helvetica Neue'
+    
+
+}
+
+html p, h1, h3, h5{
+    font-family: 'Helvetica Neue'
+    
+
+}
+
+nav .navbar-brand{
+    font-size:20px;
+}
+
+nav a{
+    color: #4f4f4f;
+    text-decoration: none;
+/*    text-shadow: 2px 0px #cab350;*/
+    transition: color 2s;
+}
+
+nav a:hover{
+    color: #8e24aa;
+    transition: color 2s;
+    
+    
+}
+
+
+
+nav.navbar {
+    justify-content: space-around;
+    font-size: 28px;
+    font-family: 'Lobster','Din Alternate', 'Din condensed';
+    
+
+}
+
+.navbar-toggler {
+    position: absolute;
+    left: 0;
+}
+
+nav{
+    background-color: white;
+}
+
+#map {
+    height: 500px;
+    max-width: 100%;
+    z-index: 0;
+}
+
+.menu-icon {
+    color:#4f4f4f;
+    
+}
+
+
+
+.menu {
+    position: fixed;
+    z-index: 3;
+    height:100vh;
+    width: 0%;
+    padding-top: 20px;
+    padding-bottom: 50px;
+/*    padding-left: 10px;*/
+/*    border-left: 1px solid #89FDD6;*/
+    left: 0;
+    top: 0;
+    background-color: #444745;
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+
+.close {
+    color: #FCFDED;
+}
+
+.exit {
+    color: #FCFDED;
+}
+
+.exit:hover {
+    cursor:pointer;
+}
+
+.menu-inner {
+    height: 550px;
+}
+
+.menu-header {
+        padding-bottom: 16px;
+
+}
+
+.menu-footer {
+    padding-top: 16px;
+}
+
+.menu h3, p{
+    color: white;
+}
+
+.menu p{
+    color: white;
+}
+
+.nav-list {
+    color: #fff;
+    padding-top: 20px;
+    background: #fff;
+    background: linear-gradient(to right,  #fff 50%, #444745 50%);
+    background-size: 200% 100%;
+    background-position:right bottom;
+    transition: background-position .5s ease;
+}
+
+
+.info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.9);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+    max-width: 40%;
+}
+.info h4 {
+    margin: 0 0 5px;
+    color: #4f4f4f;
+}
+
+.info p{
+    color:black;
+}
+
+.legend {
+    line-height: 18px;
+    color: #555;
+}
+.legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+}
+
+.leaflet-bottom{
+    width:100%;
+}
+p {
+    color:#4f4f4f;
+}
+
+body {
+    padding-bottom: 20px;
+}
+
+.article {
+    margin-top: 20px;
+}
+
+.jumbotron {
+    height:70%;
+    background-color: white;
+/*    background-image: url('images/votestickers.jpg');*/
+    background-size: cover;
+    background-position: top;
+    
+}
+
+.number {
+    color: #8e24aa;
+    font-size: 100px;
+    padding-bottom: 10px;
+}
+
+#content-1 statistic {
+    
+}
+
+.statistic {
+    text-align: left;
+/*    margin-top: 60px;*/
+    
+}
+
+.statistic h4{
+    color:4f4f4f;
+}
+
+/*
+a{ 
+    color:#8e24aa;
+}
+*/
+
+#bootstrap-overrides a {
+    text-decoration: none;
+    text-decoration-color: none;
+}
+
+#bootstrap-overrides a:hover {
+    
+    text-decoration: none;
+}
+
+#main main-home {
+    
+}
+
+.main-home {
+ 
+}
+
+.article-home {
+    height: 30%;
+}
+
+#bootstrap-overrides .btn-outline-primary {
+    color: #8e24aa;
+    border-color: #8e24aa;
+    background-color: none;
+}
+
+#bootstrap-overrides .btn-outline-primary:hover {
+    color: #fff;
+    background-color: #8e24aa;
+    border-color: #8e24aa;
+}
+
+.nav-list:hover {
+    transition: background-position .5s ease;
+    background-position:left bottom;
+}
+
+.nav-list p{
+    color: white;
+    transition: color .5s ease;
+}
+
+.nav-list:hover p{
+    color: #444745;
+    transition: color .5s ease;
+}
+
+.menu-nav {
+    padding-top: 30px;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+/*    position: relative;*/
+/*    z-index: 0;*/
+}
+
+#bootstrap-overrides .jumbotron {
+    background-color: white;
+}
+
+.home-background {
+   padding-top: 90px;
+}
+
+.home-background i{
+    `
+}
+
+.vote-icon {
+    font-size:62px;
+    color:#4f4f4f;
+}
+
+.display-1 {
+    color: #8e24aa;
+}
+
+.header {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+blockquote {
+    padding-bottom: 30px;
+    
+}
+
+.gutter {
+    background-color: #8D2CA8;
+}
+
+.about-quote {
+    
+}
+
+.footer-about {
+    padding-top: 30px;
+}
+
+.content {
+    padding-bottom: 40px;
+}
+
+.site-title {
+    font-family: 'Lobster';
+}
+
+.id-button {
+    padding-top: 15px;
+}
+
+.purge-button {
+    padding-top: 15px;
+}

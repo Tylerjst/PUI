@@ -109,7 +109,6 @@ function updateCart(){
     console.log("Cart Updated!");
 };
 
-
 function getCart(){
     shoppingCart = JSON.parse(localStorage.getItem("Cart"));
     subTotal = 0;
