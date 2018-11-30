@@ -25,7 +25,10 @@ $(document).ready(function(){
     }); 
     
     
+    
+    //Code that controls the fading statistics. Taken from: https://codepen.io/maaviles/pen/olKxr
     var divs = $('div[id^="content-"]').hide(),
+
     i = 0;
 
     (function cycle() { 
